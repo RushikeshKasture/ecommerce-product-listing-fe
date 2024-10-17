@@ -3,8 +3,8 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
   // local GraphQL server URL
-  // uri: "http://localhost:4000",
-  uri: "https://e-commerce-product-listing-eta.vercel.app/api/graphql",
+  uri: "http://localhost:4000",
+  // uri: "https://e-commerce-product-listing-eta.vercel.app/api/graphql",
   cache: new InMemoryCache(),
 });
 
